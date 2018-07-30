@@ -1,13 +1,14 @@
 ## jqxq
-uci engine for chinese chess
+uci engine for chinese chess 翻看一下开发记录，竟然断断续续弄了这么长时间了，真是十年一梦啊。
 
 ![Alt text](电影与现实.jpg)
 
-##2017年7月13日
-	为了配合ncch，已有3处修改了：
-	1、makemove()里去掉了prefetch();否则出错，原因待查。
-	2、增加了sendmessage();发送自定义消息。
-	3、ucioption.cpp里增加了一个函数用于接受uci指令。
+## 2017年7月13日
+
+为了配合ncch，已有3处修改了：
+1、makemove()里去掉了prefetch();否则出错，原因待查。
+2、增加了sendmessage();发送自定义消息。
+3、ucioption.cpp里增加了一个函数用于接受uci指令。
 	
 ##2017年1月26日
 	修改了ini类；修改了uci::init()函数，优先从配置文件中取Options。UCI：init()
